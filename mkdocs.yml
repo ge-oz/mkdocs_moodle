@@ -1,0 +1,5 @@
+site_name: Academy Moodle
+
+theme:
+  name: 'material'
+  logo: 'assets/D-educando-light.png'

@@ -1,0 +1,11 @@
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material
+    container_name: mkdocs_moodle_docker
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/docs
+    entrypoint: /bin/sh
+    command: -c "tail -f /dev/null"
+    restart: always
