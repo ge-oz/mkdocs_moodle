@@ -1,5 +1,8 @@
-site_name: Academy Moodle
+site_name: Doker-moodle
 
 theme:
   name: 'material'
   logo: 'assets/D-educando-light.png'
+
+extra_css:
+  - css/custom.css
